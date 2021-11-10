@@ -1,0 +1,46 @@
+/*Fontlar*/
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+body {
+    background-color: #030303;
+    color: white;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.card {
+    background-color: #030303;
+}
+
+.nav .renklendir .animasyon{
+    color: #000000;
+}
+
+.rainbow {
+    animation: colorRotate 6s linear 0s infinite;
+  }
+
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    30% {
+        color: #ba181b;
+      }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+
+  .siyah{
+    color: #303030;
+}
+
